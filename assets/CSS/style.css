@@ -59,6 +59,5 @@ header {
 
 #nav-bar a {
   color: green
-  background-color: var(var(--structure-color))
-  
+  background-color: var(--structure-color);
 }
