@@ -1,0 +1,64 @@
+:root {
+  --main-bg-color: slategray;
+  --heading-color: steelblue;
+  --structure-color: rgb(5, 80, 98);
+}
+
+* {
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* This tag isn't working for some reason */
+body {
+  background-color: var(--main-bg-color);
+}
+
+/* This is no longer working */
+h1, h2, h3, {
+  color: var(--heading-color);
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 1rem 0 1rem 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: .75rem 0 .75rem 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.frame {
+  background-color: var(--main-bg-color);
+  width: fit-content;
+}
+
+img {
+  max-height: 300px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  border: var(--heading-color);
+  padding: 1rem;
+  background-color: var(--structure-color)
+}
+
+#nav-bar a {
+  color: green
+  background-color: var(var(--structure-color))
+  
+}
