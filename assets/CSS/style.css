@@ -63,7 +63,6 @@ header img {
   width: 100%;
 }
 
-/* link letters wrong color */
 #nav-bar a {
   color: green;
   background-color: var(--structure-color);
@@ -82,6 +81,8 @@ header img {
   flex-direction: column;
   align-items: center;
 }
+
+/* Add Hover State for all cards */
 
 .card-main {
   width: 100%
