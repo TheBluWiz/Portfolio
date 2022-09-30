@@ -53,14 +53,14 @@ header img {
   width: fit-content;
 } */
 
-/* background links white */
 #nav-bar {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   border: solid var(--heading-color);
   padding: 1rem;
   background-color: var(--structure-color);
   width: 100%;
-  
 }
 
 /* link letters wrong color */
