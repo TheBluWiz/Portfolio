@@ -2,6 +2,7 @@
   --main-bg-color: slategray;
   --heading-color: steelblue;
   --structure-color: rgb(5, 80, 98);
+  --light-blue-text: rgb(68, 173, 173);
 }
 
 * {
@@ -71,7 +72,7 @@ header img {
 }
 
 #nav-bar a {
-  color: rgb(68, 173, 173);
+  color: var(--light-blue-text);
   background-color: var(--structure-color);
   padding-inline: 1rem;
 }
@@ -117,4 +118,17 @@ header img {
 
 .form p {
   padding: .25rem 0 .25rem 1rem;
+}
+
+.form textarea{
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+
+.form button {
+  position: relative;
+  left: 369px;
+  bottom: 0px;
+  margin-bottom: 1rem;
 }
