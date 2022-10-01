@@ -115,7 +115,7 @@ header img {
 }
 
 .card-small img {
-  width: 50%
+  width: 100%
 }
 
 /* why is i not italic?? */
@@ -125,10 +125,13 @@ header img {
 
 .about-me {
   padding-bottom: 1rem;
+  border-radius: 40px !important;
+
 }
 
 .resume {
   margin: 0 3rem;
+  background-color: var(--main-bg-color);
 }
 
 section embed {
@@ -139,6 +142,11 @@ section embed {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  border: 1rem;
+  border-style:inset;
+  border-color: var(--structure-color);
+  margin: 1rem;
+  max-width: fit-content;
 }
 
 .form p {
@@ -146,14 +154,14 @@ section embed {
 }
 
 .form textarea{
-  width: 400px;
+  width: 350px;
   height: 200px;
   position: relative;
 }
 
 .form button {
   position: relative;
-  left: 369px;
+  left: 350px;
   bottom: 0px;
   margin-bottom: 1rem;
 }
