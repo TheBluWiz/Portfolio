@@ -129,15 +129,6 @@ header img {
 
 }
 
-.resume {
-  margin: 0 3rem;
-  background-color: var(--main-bg-color);
-}
-
-section embed {
-  min-height: 600px;
-}
-
 .form {
   display: flex;
   flex-direction: column;
@@ -165,3 +156,14 @@ section embed {
   bottom: 0px;
   margin-bottom: 1rem;
 }
+
+.resume {
+  margin: 0 3rem;
+  background-color: var(--main-bg-color);
+}
+
+
+section embed {
+  min-height: 600px;
+}
+
