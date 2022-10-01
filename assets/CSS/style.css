@@ -3,6 +3,7 @@
   --heading-color: steelblue;
   --structure-color: rgb(5, 80, 98);
   --light-blue-text: rgb(68, 173, 173);
+  --light-green-text: rgb(10, 135, 98);
 }
 
 * {
@@ -35,6 +36,8 @@ h2 {
 h3 {
   font-size: 1.5rem;
   margin: .5rem 0;
+  font-weight: 00;
+  padding: 1rem 0 0 1.5rem;
 }
 
 h4 {
@@ -46,6 +49,7 @@ h4 {
 
 p {
   margin: 1rem 2rem;
+  color: var(--light-green-text);
 }
 
 header {
@@ -112,6 +116,23 @@ header img {
 
 .card-small img {
   width: 50%
+}
+
+/* why is i not italic?? */
+.about-me, .about-me h3, .about-me p, .about-me i {
+  background-color: var(--structure-color);
+}
+
+.about-me {
+  padding-bottom: 1rem;
+}
+
+.resume {
+  margin: 0 3rem;
+}
+
+section embed {
+  min-height: 600px;
 }
 
 .form {
