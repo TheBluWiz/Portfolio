@@ -100,3 +100,13 @@ header img {
 .card-small img {
   width: 50%
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form p {
+  padding: .25rem 0 .25rem 1rem;
+}
