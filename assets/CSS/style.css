@@ -71,7 +71,7 @@ header img {
 }
 
 #nav-bar a {
-  color: green;
+  color: rgb(68, 173, 173);
   background-color: var(--structure-color);
   padding-inline: 1rem;
 }
