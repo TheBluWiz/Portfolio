@@ -77,13 +77,21 @@ header img {
   padding-inline: 1rem;
 }
 
+.projects-flex section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .projects a {
   text-decoration: none;
   /* color: var(--); */
 }
 
+/* Add Hover State for all cards */
+
 .card {
-  display: block;
+  display: box
   align-items: center;
   text-decoration: none;
   border: solid;
@@ -102,14 +110,6 @@ header img {
   bottom: 20%;
   max-width: 125px;
 }
-
-#off-set-card {
-  position: relative;
-  transform: translate(51%, -101.5%);
-}
-
-
-/* Add Hover State for all cards */
 
 .card-main {
   width: 100%
@@ -205,9 +205,9 @@ section embed {
 
   header h1 {
     position: absolute;
-    top: 55%;
-    left: 100%;
-    transform: translate(-350px, 45px);
+    bottom: 43px;
+    left: 250px;
+    /* transform: translate(-350px, 45px); */
     background: none;
   }
 
@@ -215,16 +215,6 @@ section embed {
     justify-content: flex-end;
     width: auto;
   }
-
-
-
-  .resume embed {
-    /* width: fit-content;
-    height: 50px; */
-  }
-
-
-
 }
 
 @media screen and (min-width: 836px) {
