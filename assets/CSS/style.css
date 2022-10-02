@@ -193,23 +193,29 @@ section embed {
   }
 
   header img {
-    margin: .5rem 0 .25rem .5rem;
+    margin: .5rem 0 .25rem 1rem;
   }
 
   header h1 {
     position: absolute;
-    top: 245px;
-    left: 240px;
+    top: 55%;
+    left: 100%;
+    transform: translate(-350px, 45px);
     background: none;
   }
 
   #nav-bar {
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: flex-end;
+    width: auto;
   }
 
-  /* #nav-bar a {
-    padding-inline: 1rem;
-    margin-right: .75rem;
+  /* main {
+    position: relative;
+  }
+
+  .projects section {
+    width: ;
+    position: absolute;
+
   } */
 }
