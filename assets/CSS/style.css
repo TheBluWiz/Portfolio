@@ -33,6 +33,7 @@ h3 {
   margin: .5rem 0;
   font-weight: 00;
   padding: 1rem 0 0 1.5rem;
+  background: none;
 }
 
 h4 {
@@ -142,6 +143,7 @@ aside {
   align-items: flex-start;
   border: 1rem;
   border-style: inset;
+  border-radius: 40px 40px 20px 20px;
   border-color: var(--structure-color);
   margin: 1rem;
   /* max-width: fit-content; */
