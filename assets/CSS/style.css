@@ -24,7 +24,7 @@ h3 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 1rem 0;
 }
 
@@ -60,6 +60,7 @@ header {
 
 header img {
   max-height: 300px;
+  margin-top: 1rem;
   border-radius: 40px;
 }
 
@@ -71,7 +72,7 @@ header img {
 
 #nav-bar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   border: solid var(--heading-color);
   padding: 1rem;
   background-color: var(--structure-color);
@@ -186,12 +187,29 @@ section embed {
 }
 
 @media screen and (min-width: 768px) {
-  h1 {
-    align-items: flex-end;
+  header {
+    display: block;
+    position: relative;
   }
 
   header img {
-    position: relative;
-    right: 30%;
+    margin: .5rem 0 .25rem .5rem;
   }
+
+  header h1 {
+    position: absolute;
+    top: 245px;
+    left: 240px;
+    background: none;
+  }
+
+  #nav-bar {
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  /* #nav-bar a {
+    padding-inline: 1rem;
+    margin-right: .75rem;
+  } */
 }
