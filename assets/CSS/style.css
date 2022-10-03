@@ -26,7 +26,11 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  margin: .75rem 0;
+  text-align: center;
+  margin: 0 50% .5rem 0;
+  background-color: var(--structure-color);
+  padding: 1rem;
+  border-radius: 0 0 40px 40px;
 }
 
 h3 {
@@ -77,13 +81,15 @@ header img {
   padding-inline: 1rem;
 }
 
-.projects-flex section {
+.projects {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
 }
 
 .projects a {
+  max-width: 100%;
   text-decoration: none;
   /* color: var(--); */
 }
@@ -91,7 +97,7 @@ header img {
 /* Add Hover State for all cards */
 
 .card {
-  display: box
+  display: flex;
   align-items: center;
   text-decoration: none;
   border: solid;
@@ -231,16 +237,11 @@ section embed {
 }
 
 @media screen and (min-width: 992px) {
-
-  #full-size div{
-    display: block;
-  }
-
-  main {
+   main {
     position: absolute;
     width: auto;
     left: 475px;
-    margin: 1rem;
+    margin: 0 1rem .25rem 1rem;
   }
 
   aside {
