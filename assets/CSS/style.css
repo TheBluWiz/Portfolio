@@ -87,6 +87,8 @@ header img {
   padding-inline: 1rem;
 }
 
+/* Last known to function properly at commit 
+119fb4eab20add9f61bfaab6f618f210787b6f4d */
 .projects {
   display: flex;
   flex-direction: row;
