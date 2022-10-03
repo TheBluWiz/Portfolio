@@ -115,6 +115,7 @@ header img {
   background-color: var(--structure-color);
   bottom: 20%;
   max-width: 125px;
+  border-radius: 0 40px 40px 0;
 }
 
 .card-main {
