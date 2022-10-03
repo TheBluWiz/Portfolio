@@ -122,18 +122,13 @@ header img {
   width: 100%
 }
 
-.card-main img {
+.card img {
   width: 100%;
   background: none;
 }
 
 .card-small {
   width: 50%;
-}
-
-.card-small img {
-  width: 100%;
-  background: none;
 }
 
 aside {
