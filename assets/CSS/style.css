@@ -116,6 +116,7 @@ header img {
   background-color: var(--heading-color);
   box-sizing: border-box;
   margin-bottom: 5px;
+  
 }
 
 .card h4 {
@@ -136,7 +137,7 @@ header img {
 }
 
 .card-small {
-  width: 50%;
+  flex: 0 0 50%;
 }
 
 aside {
