@@ -87,8 +87,10 @@ header img {
   padding-inline: 1rem;
 }
 
-/* Last known to function properly at commit 
-119fb4eab20add9f61bfaab6f618f210787b6f4d */
+#nav-bar a:hover {
+  color: var(--light-green-text);
+}
+
 .projects {
   display: flex;
   flex-direction: row;
@@ -102,7 +104,6 @@ header img {
   /* color: var(--); */
 }
 
-/* Add Hover State for all cards */
 
 .card {
   display: flex;
@@ -117,6 +118,10 @@ header img {
   box-sizing: border-box;
   margin-bottom: 5px;
   
+}
+
+.card:hover {
+  border-color: midnightblue;
 }
 
 .card h4 {
