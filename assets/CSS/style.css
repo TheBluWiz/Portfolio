@@ -11,11 +11,9 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* Keep site from expanding beyond these bounds with margins */
-/* #whole-site {
-  max-width: 1200px;
-  margin: 0 auto;
-} */
+#whole-site {
+  position: relative;
+}
 
 h1,
 h2,
@@ -148,6 +146,8 @@ header img {
 aside {
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: auto; 
 }
 
 .about-me,
@@ -264,4 +264,15 @@ section embed {
   .resume {
     display: none;
   }
+}
+
+@media screen and (min-width: 1010px) {
+
+  body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1005px;
+    margin: 0 auto;
+  }
+
 }
