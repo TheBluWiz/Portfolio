@@ -255,14 +255,16 @@ section embed {
   }
 
   aside {
-    /* min-width: 47%; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     position: absolute;
     max-width: 475px;
     top: 20;
   }
 
-  .resume {
-    display: none;
+  .about-me {
+    width: 100%;
   }
 }
 
