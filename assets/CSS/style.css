@@ -81,6 +81,7 @@ header img {
   padding: 1rem;
   background-color: var(--structure-color);
   width: 100%;
+  position: relative;
 }
 
 /* sets colors and spacing for links */
@@ -93,6 +94,22 @@ header img {
 /* shows which link the cursor is over */
 #nav-bar a:hover {
   color: var(--light-green-text);
+}
+
+#download-me span {
+  display: none
+}
+
+#download-me:hover span {
+  display: block;
+  position: absolute;
+  bottom: 80%;
+  background-color: var(--heading-color);
+  color: var(--structure-color);
+  border-radius: 40px;
+  border-color: var(--structure-color);
+  padding: 1rem;
+  text-align: center;
 }
 
 /* organizes project cards for layout */
